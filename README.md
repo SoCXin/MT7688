@@ -1,32 +1,21 @@
-﻿# [MT7688](https://github.com/mcuyun/MT7688) 
+﻿# [MT7688](https://github.com/sochub/MT7688) 
+[![sites](SoC/qitas.png)](http://www.qitas.cn) 
+#### 归属：[MIPS](https://github.com/sochub/MIPS)
+#### 父级：[mediatek](https://github.com/sochub/mediatek)
 
-[![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
+## [描述](https://github.com/sochub/MT7688/wiki) 
 
-#### 归属：[MIPS](https://github.com/mcuyun/MIPS)
-#### [关于悠云](https://github.com/mcuyun)可访问 www.mcuyun.com
+[![sites](docs/MT7688.png)](http://www.qitas.cn)
 
-## [描述](https://github.com/mcuyun/MT7688/wiki) 
+- [文档](docs/) 
+- [资源](src/) 
 
-[![sites](docs/MT7688.png)](http://www.mcuyun.com)
+#### 特 点
 
-主要特点： 2.4 GHz with 150 Mbps
-
-功能特点：10/100 FE PHY
-
-主要短板：处理器
-
-器件封装：DR-QFN156 (12mmx12mm)
-
-参考价格：14元
-
-#### [docs](docs/)
-
-参考设计和数据手册
+* 主要特点：2.4 GHz with 150 Mbps
+* 功能特点：10/100 FE PHY
+* 器件封装：DR-QFN156 (12mmx12mm)
 
 
----
-
-###  [悠云，为嵌入式](http://www.mcuyun.com)   
-###  qitas@qitas.cn
-
+###  [SoC开发平台](http://www.qitas.cn)   
 
