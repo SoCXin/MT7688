@@ -26,10 +26,12 @@
 
 ### [关联资源](https://github.com/sochub)
 
-* [编译工具RISCV-GNU](https://github.com/sochub/RISCV-GNU)
+
 
 ### [选型建议](https://github.com/sochub)
 
+[MT7688](https://github.com/sochub/MT7688) 是一款很有特色的通信芯片，最大的特点在于集成的有线和无线通信能力，丰富的外设接口和不俗的性能，不仅可用于路由、网关类产品，还可以用作控制器。
 
+相识产品包括[mediatek](https://github.com/sochub/mediatek)自家的[MT7628](https://github.com/sochub/MT7628)、[RT5350](https://github.com/sochub/RT5350)等。
 
 ###  [SoC资源平台](http://www.qitas.cn)   
