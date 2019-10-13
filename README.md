@@ -14,8 +14,8 @@
 * MIPS24KEc 580 MHz，64KB I-Cache与32KB D-Cache
 * 支持最大 256MB RAM ，并支持SD-card
 * 1T1R 2.4GHz 802.11 Wi-Fi radio with 150 Mbps
-* 10/100 FE PHY
-* USB 2.0 Host, PCIe 1.1 Root Complex；
+* 1 port 10/100 FE PHY，5 port FE SW
+* USB 2.0 Host, PCIe 1.1 Root Complex
 
 器件封装：MT7688AN QFN156 (12mmx12mm)，MT7688KN QFN120 (10mmx10mm)
 
