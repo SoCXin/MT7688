@@ -7,20 +7,19 @@
 
 ## [简介](https://github.com/SoCXin/MT7688/wiki)
 
-[MT7688](https://github.com/SoCXin/MT7688) 整合了 2T2R 802.11n Wi-Fi 收发器、580MHz MIPS® 24KEc™ 中央处理器 (CPU)、5 端口高速以太网络端口物理层 (Ethernet PHY)、AES128/256 安全引擎、USB2.0 主机、PCIe 主机，以及连接不同传感器的多个慢速输入输出 (I/O)。MT7688A 可连接 11ac 同步双频路由器的外部动态随机内存 (DRAM)。路由器模式提供 5p FE 开关，主要是为路由应用而设。另一方面，物联网模式则支持 1p FE 及众多慢速输入输出 (I/O)。用户可加入 802.11ac 芯片组，以建立 802.11ac 同步双频物联网网关。MT7688K 内建 8MB 内存，提供小型路由器、中继器、物联网网桥、储存器及音讯应用的 eCos 统包方案。MT7688N 所提供的功能与 MT7688A 大致相同，不同的是 MT7688N 的 PCIe 及物联网模式主要是为了 N300 路由器而设。
+[MT7688](https://github.com/SoCXin/MT7688) 整合1T1R 802.11 b/g/n 无线传输功能，采用MIPS®24KEc™/580MHz中央处理器(CPU)、5端口高速以太网络交换器或是单端口超高速以太网络PHY，以及USB 2.0主控制器、PCIe、SD-XC、I2S/PCM和多种适用慢速的I/O装设备接口。MT7688具备双重运行模式，其中MT7688K内建8MB内存，可为迷你路由器、信号中继器、物联网网关、储存、音频应用等提供产业电子化的转钥(TurnKey)模式。此款芯片可再扩充一组802.11ac芯片组，建立802.11ac双频无线的物联网网关。MT7688A则提供物联网设备模式，可支持更多外围接口：包括eMMC、SD-XC、SPI受控器、3个UART端口、PWM以及更多GPIO。搭载MT7688A的各式设备与网桥已通过Apple智能家庭平台HomeKit延伸技术认证。
 
-[![sites](docs/MT7688.png)](https://www.mediatek.cn/products/homeNetworking/MT7688k-n-a)
+[![sites](docs/MT7688.png)](https://www.mediatek.cn/products/homeNetworking/mt7688k)
 
 ### 关键特性
 
-* 2T2R 802.11n Wi-Fi 收发器
-* 5 端口高速以太网络端口物理层 (Ethernet PHY)
+* 1T1R 2.4 GHz，具备 150 Mbps PHY data rate
+* 1-port 10/100 FE PHY
 
 #### 封装规格
 
-* MT7688AN:DR-QFN156 (12×12mm)
-* MT7688KN:DR-QFN120 (10×10mm)
-
+* MT7688AN:QFN156 (12×12mm)
+* MT7688KN:QFN120 (10×10mm)
 
 ### [资源收录](https://github.com/SoCXin)
 
