@@ -1,0 +1,31 @@
+{
+    "type":"SoC",
+    "name":"MT7688",
+    "title": "MediaTek MT7688 SoC",
+    "description":"MediaTek dual-core MIPS SoC",
+    "Core": {
+        "type":"24KEc",
+        "Freq":580,
+        "DMIPS": 1.55,
+        "CoreMark": 3.05
+    },
+    "manufacturer": {
+        "vendor":"MediaTek",
+        "homepage":"https://www.mediatek.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/MT7688.git"
+    },
+    "version":"1.0.0",
+    "series":["MT7688AN","MT7688KN"],
+    "package":["QFN156","QFN120"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}

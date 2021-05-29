@@ -1,47 +1,35 @@
-﻿# [MT7688](https://github.com/sochub/MT7688) 
-[![sites](SoC/qitas.png)](http://www.qitas.cn) 
+﻿# [MT7688](https://github.com/SoCXin/MT7688)
 
-#### [Vendor](https://github.com/sochub/Vendor) ：[mediatek](https://github.com/sochub/mediatek)
-#### [MIPS](https://github.com/sochub/MIPS) ：MIPS® 24KEc™（1.6 DMIPS/MHz）
-#### [Level](https://github.com/sochub/Level)：928 DMIPS @ 580 MHz
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-## [描述](https://github.com/sochub/MT7688/wiki) 
+* [MediaTek](https://www.mediatek.com/): [24KEc](https://github.com/SoCXin/MIPS)
+* [L7R6](https://github.com/SoCXin/Level): 580 MHz x 1.55 DMIPS/MHz (3.05 CoreMark/MHz)
 
-[MT7688](https://github.com/sochub/MT7688) 实际包括MT7688AN 和 MT7688KN两个型号，两者共性包括 ：
+## [简介](https://github.com/SoCXin/MT7688/wiki)
 
-* 1T1R 802.11n Wi-Fi radio 
-* 580MHz MIPS® 24KEc™ CPU，64 KB I-Cache, 32 KB D-Cache
-* 相同的16 bits DRAM , 相同的SPI flash支持
-* 1-Port fast Ethernet PHY & 5P FE SW 
-* USB2.0 host & PCIe 1.1
+[MT7688](https://github.com/SoCXin/MT7688) 整合了 2T2R 802.11n Wi-Fi 收发器、580MHz MIPS® 24KEc™ 中央处理器 (CPU)、5 端口高速以太网络端口物理层 (Ethernet PHY)、AES128/256 安全引擎、USB2.0 主机、PCIe 主机，以及连接不同传感器的多个慢速输入输出 (I/O)。MT7688A 可连接 11ac 同步双频路由器的外部动态随机内存 (DRAM)。路由器模式提供 5p FE 开关，主要是为路由应用而设。另一方面，物联网模式则支持 1p FE 及众多慢速输入输出 (I/O)。用户可加入 802.11ac 芯片组，以建立 802.11ac 同步双频物联网网关。MT7688K 内建 8MB 内存，提供小型路由器、中继器、物联网网桥、储存器及音讯应用的 eCos 统包方案。MT7688N 所提供的功能与 MT7688A 大致相同，不同的是 MT7688N 的 PCIe 及物联网模式主要是为了 N300 路由器而设。
 
-差别在于： 
+[![sites](docs/MT7688.png)](https://www.mediatek.cn/products/homeNetworking/MT7688k-n-a)
 
-* 封装：MT7688AN QFN156 (12mmx12mm)，MT7688KN QFN120 (10mmx10mm)
-* 接口：MT7688KN 没有SD-XC (class 10)接口，最大支持DDR1 64Mb(MCM)@193MHz
+### 关键特性
 
+* 2T2R 802.11n Wi-Fi 收发器
+* 5 端口高速以太网络端口物理层 (Ethernet PHY)
 
-[![sites](docs/MT7688.png)](http://www.qitas.cn)
+#### 封装规格
 
-### 关键特性（核心买点）
-
-* 150 Mbps 1T1R 2.4GHz 802.11n WiFi  
-* 1 port 10/100 FE PHY，5 port FE SW
-* PCIe 1.1 Root Complex
-
-### [收录资源](https://github.com/sochub/MT7688)
-
-* [文档](docs/)
-* [资源](src/)
-
-### [关联资源](https://github.com/sochub)
+* MT7688AN:DR-QFN156 (12×12mm)
+* MT7688KN:DR-QFN120 (10×10mm)
 
 
+### [资源收录](https://github.com/SoCXin)
 
-### [选择建议](https://github.com/sochub)
+* [参考资源](src/)
+* [参考文档](docs/)
+* [参考工程](project/)
 
-[MT7688](https://github.com/sochub/MT7688) 是一款很有特色的通信类SOC芯片，最大的特点在于集成的有线和无线通信能力，再加之丰富的外设接口和不俗的性能，综合性价比不错，可用于物联网路由、网关类产品，特别是低阶芯片PCIe和FE SW之类的功能接口稀缺。
+### [选型建议](https://github.com/SoCXin)
 
-相似定位产品包括 [mediatek](https://github.com/sochub/mediatek)自家的 [MT7628](https://github.com/sochub/MT7628)、[RT5350](https://github.com/sochub/RT5350)等。
+[MT7688](https://github.com/SoCXin/MT7688)
 
-###  [SoC资源平台](http://www.qitas.cn)   
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
